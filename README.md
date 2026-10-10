@@ -12,7 +12,7 @@ Unlike basic file-hiding utilities, LockHere combines 4MB-chunked stream encrypt
 - **Hardware-Accelerated:** Leverages native CPU AES-NI instructions for maximum disk-speed encryption.
 
 ## Direct Download
-Pre-compiled Windows installers are available on the [Releases](../../releases) tab (`lockhere_0.1.0_x64-setup.exe`).
+Pre-compiled Windows installers are available on the [Releases](https://github.com/sportshere001-netizen/lockhere/releases) tab (`lockhere_0.1.0_x64-setup.exe`).
 
 ## Build from Source
 ```bash
@@ -20,7 +20,3 @@ git clone [https://github.com/sportshere001-netizen/lockhere.git](https://github
 cd lockhere
 npm install
 npm run tauri build
-```
-
-## Security Notice
-LockHere operates on a strict zero-knowledge architecture. **There is no backdoor or master recovery mechanism.** If you lose your master password, your encrypted data cannot be recovered by anyone.
