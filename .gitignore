@@ -1,0 +1,33 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies and Web Bundles
+node_modules
+dist
+dist-ssr
+*.local
+
+# CRITICAL: Rust & Tauri Compilation Artifacts (Prevents 2GB upload failure)
+src-tauri/target/
+
+# Local Vault & Encrypted Test Files
+.lockhere_vault/
+*.locked
+*.zip
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
